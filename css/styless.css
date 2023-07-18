@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* acá tengo los estilos genrales */
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* Acá tenemos los estilos del header */
+
+header{
+    background: #1f1f1f;
+    padding: 10px 50px
+}
+
+#logo {
+    width: 100px;
+}
+
+#logo img{
+    border-radius:100%;
+    border: 2px solid #ffff; 
+}
+
+/* Acá estan los estilos del hero */
+
+#hero {
+    position: relative;
+}
+
+#hero #fondo {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .informacion-contenedor 
+{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color:black ;
+    font-size: 120%;
+    padding: 0 50px;
+}
+
+#hero .informacion-contenedor #perfil img{
+    width:200px;
+}
+
+#hero .informacion-contenedor #perfil img{
+    border-radius:100%;
+    border: 2px solid #ffff;
+}
+
+#hero .informacion-contenedor .informacion-1 {
+    margin-left: 20px;
+    font-weight: bold;
+    width: calc(100% - 200px);
+}
+
+#hero .informacion-contenedor .informacion-1 span{
+    display: inline-block;
+    color: #1f1f1f;
+    margin-bottom:70px;
+}
+
+/* Estilos de main */
+
+main{
+    padding: 100px;
+}
+
+main .servicios{
+    margin-left: 15%;
+    color: black;
+    font-size: 120%;
+}
+
+main .servicios h2{
+    margin: 30px;
+    color: black;
+}
+
+main .social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+main .social-icons li{
+    margin-left: 8px;
+}
+
+main .social-icons .social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px; 
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+main .social-icon img{
+    width: 60px;
+    height: 60px;
+
+}
+
